@@ -9,6 +9,8 @@ public class NodeMain {
 		Node n4 = new Node(8);
 
 
+
+
 		
 		//membuat relasi node 1 n1 dan node n2
 		n1.setNext(n2);
@@ -20,7 +22,7 @@ public class NodeMain {
 		Node p = n1;
 		while(p !=null)
 		{
-			System.out.printf("%d", p.getNilai());
+			System.out.printf("%d,", p.getNilai());
 			p = p.getNext();
 		}
 	}
